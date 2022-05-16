@@ -2,7 +2,7 @@
 # This is a Makefile to automate generating a snap of obnc
 # for use with snapcraft build.
 #
-build: ext/*
+build: .FORCE
 	./build
 
 test: .FORCE
